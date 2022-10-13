@@ -1,0 +1,110 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_studentFirstName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_studentLastName",
+						"type": "string"
+					}
+				],
+				"name": "addStudentDetails",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_studentId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_englishMarks",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_mathsMarks",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_scienceMarks",
+						"type": "uint256"
+					}
+				],
+				"name": "addStudentScore",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "classTeacher",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ScoreCard.sol": "ScoreCard"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ScoreCard.sol": {
+			"keccak256": "0xb3b01b8a80d4f9030d485dfa0818bc07bb458fed2bad992911fb1ebf9b0951c5",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://ccc3442954e2d621e6d9a75fba5ac3d8d85d981ba25a6441f8c0425bcfb3dbb0",
+				"dweb:/ipfs/QmczuXrP5De58KevHoysi5ftK6v1GtTCyowNLWPfdyVjcD"
+			]
+		}
+	},
+	"version": 1
+}
